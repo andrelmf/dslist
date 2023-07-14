@@ -30,7 +30,7 @@ public class GameDTO {
         BeanUtils.copyProperties(entity, this);
     }
 
-//  Getters and Setters
+//  Getters and Setters, utilizo setters neste DTO porque estou usando o BeanUtls para transferencia de atributos entre os objetos.
     public Long getId() {
         return id;
     }
