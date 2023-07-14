@@ -1,6 +1,7 @@
 package com.devsuperior.dslist.entities;
 
 import jakarta.persistence.*;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 import java.util.Objects;
 @Entity
