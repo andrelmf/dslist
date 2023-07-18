@@ -3,6 +3,7 @@ package com.devsuperior.dslist.controllers;
 import com.devsuperior.dslist.dtos.GameDTO;
 import com.devsuperior.dslist.dtos.GameMinDTO;
 import com.devsuperior.dslist.entities.Game;
+import com.devsuperior.dslist.services.GameListService;
 import com.devsuperior.dslist.services.GameService;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -44,4 +45,6 @@ public class GameController {
          GameDTO result = gameService.findById(id);
          return result;
     }
+
+
 }
